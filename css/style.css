@@ -20,6 +20,10 @@ footer{
     padding: 2rem 0;
 }
 
+.header-about{
+    margin-top:1.5rem;
+}
+
 .custom-jumbo{
     padding: 3rem;
     background-image: linear-gradient(
@@ -30,8 +34,16 @@ footer{
     color: white;
 }
 
+.custom-jumbo h1{
+    font-size: 3rem;
+}
+
+.custom-jumbo h2{
+    font-size: 2.5rem;
+}
+
 .row-content{
-    font-size: 1.4rem;
+    font-size: 1rem;
     padding: 3rem;
     border-bottom: 2px ridge;
 }
