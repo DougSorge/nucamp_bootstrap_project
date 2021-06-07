@@ -15,13 +15,14 @@ header h2{
     color: #cec8ff;
 }
 
-footer{
+.site-footer{
     background-image: linear-gradient(#cec8ff, white);
     padding: 2rem 0;
+    font-size: 1.1rem;
 }
 
 .header-about{
-    margin-top:1.5rem;
+    margin: 1.5rem 0 0 2rem;
 }
 
 .custom-jumbo{
@@ -51,3 +52,9 @@ footer{
 .navbar{
     background-color: #901CAD;
 }
+
+.breadcrumb-item, .nav-item{
+    font-size: 1.2rem;
+}
+
+
