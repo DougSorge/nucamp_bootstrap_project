@@ -1,60 +1,57 @@
-body{
-    font-family: "Open Sans", sans-serif;
-    font-size: 62.5%;
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
 }
 
-h1, h2, h3{
-    font-size: 2rem;
-    font-family: "Lobster", cursive;
+h1,
+h2,
+h3 {
+  font-size: 2rem;
+  font-family: "Lobster", cursive;
 }
 
-h2{
-    color: #3046c5;
+h2 {
+  color: #3046c5;
 }
-header h2{
-    color: #cec8ff;
-}
-
-.site-footer{
-    background-image: linear-gradient(#cec8ff, white);
-    padding: 2rem 0;
-    font-size: 1.1rem;
+header h2 {
+  color: #cec8ff;
 }
 
-.header-about{
-    margin: 1.5rem 0 0 2rem;
+.site-footer {
+  background-image: linear-gradient(#cec8ff, white);
+  padding: 2rem 0;
+  font-size: 1.1rem;
 }
 
-.custom-jumbo{
-    padding: 3rem;
-    background-image: linear-gradient(
-                    to right,
-                    #5637dd,
-                    #3046c5,
-                    #60106b);
-    color: white;
+.header-about {
+  margin: 1.5rem 0 0 2rem;
 }
 
-.custom-jumbo h1{
-    font-size: 3rem;
+.custom-jumbo {
+  padding: 3rem;
+  background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+  color: white;
 }
 
-.custom-jumbo h2{
-    font-size: 2.5rem;
+.custom-jumbo h1 {
+  font-size: 3rem;
 }
 
-.row-content{
-    font-size: 1rem;
-    padding: 3rem;
-    border-bottom: 2px ridge;
+.custom-jumbo h2 {
+  font-size: 2.5rem;
 }
 
-.navbar{
-    background-color: #901CAD;
+.row-content {
+  font-size: 1rem;
+  padding: 3rem;
+  border-bottom: 2px ridge;
 }
 
-.breadcrumb-item, .nav-item{
-    font-size: 1.2rem;
+.navbar {
+  background-color: #901cad;
 }
 
-
+.breadcrumb-item,
+.nav-item {
+  font-size: 1.2rem;
+}
