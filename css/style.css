@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 62.5%;
@@ -54,4 +58,10 @@ header h2 {
 .breadcrumb-item,
 .nav-item {
   font-size: 1.2rem;
+}
+
+.tab-content {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 10px;
 }
