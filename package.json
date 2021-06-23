@@ -8,16 +8,24 @@
     "start": "npm run watch:all",
     "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
-    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin images/* -o dist/img",
+    "usemin": "usemin contact-us.html -d dist --htmlmin -o dist/contact-us.html && usemin about-us.html -d dist --htmlmin -o dist/about-us.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run copyfonts && npm run usemin"
   },
   "keywords": [],
   "author": "SorgeForge Studio",
   "license": "ISC",
   "devDependencies": {
+    "copyfiles": "^2.2.0",
     "lite-server": "^2.6.1",
     "node-sass": "^4.14.1",
     "onchange": "^7.0.0",
-    "parallelshell": "3.0.1"
+    "parallelshell": "3.0.1",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
